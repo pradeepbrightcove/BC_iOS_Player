@@ -1,0 +1,40 @@
+source 'https://github.com/brightcove/BrightcoveSpecs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+def common_pods
+    # Common Pods
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'Firebase/Core'
+    pod 'Firebase/Messaging'
+    pod 'Brightcove-Player-Core', '6.3.11'
+end
+
+target 'ATT' do
+    common_pods
+end
+
+target 'ATTQA' do
+    common_pods
+end
+
+target 'RootSportsQA' do
+    common_pods
+end
+
+target 'RootSports' do
+    common_pods
+end
+
+target 'RootSportsTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Firebase/Core'
+    pod 'Firebase/Messaging'
+end
+
+target 'RootSportsUITests' do
+    inherit! :search_paths
+    # Pods for testing
+end

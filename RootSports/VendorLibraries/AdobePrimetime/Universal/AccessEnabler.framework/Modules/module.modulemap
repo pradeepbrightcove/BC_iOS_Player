@@ -1,0 +1,11 @@
+framework module AccessEnabler {
+  umbrella header "AccessEnabler.h"
+
+  export *
+  module * { export * }
+}
+
+module AccessEnabler.Swift {
+    header "AccessEnabler-Swift.h"
+    requires objc
+}

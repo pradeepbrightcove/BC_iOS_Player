@@ -1,0 +1,372 @@
+{
+    "programPollingDelay": 5000,
+    "deviceZipTimeout": 1920000,
+    "htmlRootsports": [
+                       {
+                       "region_code": "NRTW",
+                       "menu_resources": [
+                                          {
+                                          "key": "privacy",
+                                          "name": "Privacy Policy",
+                                          "type": "html",
+                                          "data": "<h1>NW SPORTSNET LLC Terms of Service, End User License Agreement, and Privacy\r\nStatement</h1>"
+                                          },
+                                          {
+                                          "key": "contact",
+                                          "name": "Contact Us",
+                                          "type": "url",
+                                          "url": "https://northwest.rootsports.com/support-request/"
+                                          },
+                                          {
+                                          "key": "careers",
+                                          "name": "Careers",
+                                          "type": "url",
+                                          "url": "http://northwest.rootsports.com/careers/"
+                                          },
+                                          {
+                                          "key": "about",
+                                          "name": "About Us",
+                                          "type": "html",
+                                          "data": "<h2>About Us</h2>\r\n<div class=\"entry-content\">\r\n  <p><strong><em>ROOT SPORTS</em></strong> "
+                                          },
+                                          {
+                                          "key": "certifications",
+                                          "name": "Certifications",
+                                          "type": "html",
+                                          "data": "<ul><li><a href=\"http://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/21/2014/09/10145056/All-Region-CALM-17Q2.pdf\"><strong><em>ROOT SPORTS</em>  | All Regions:</strong>  CALM Act Certificates</span></a></li><li><a href=\"http://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/21/2014/09/10145056/All-Region-CCC-17Q2.pdf\"><span style=\"text-decoration: underline;\"><strong><em>ROOT SPORTS</em>  | All Regions:</strong>  Closed-Captioning Certificates</span></a></li><li><a href=\"http://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/21/2014/09/10145056/All-Region-CTA-17Q2.pdf\"><span style=\"text-decoration: underline;\"><strong><em>ROOT SPORTS</em>  | All Regions:</strong>  Children&#8217;s Television Act Certificates</span></a></li></ul>"
+                                          },
+                                          {
+                                          "key": "resources",
+                                          "name": "Affiliate Resources",
+                                          "type": "url",
+                                          "url": "http://northwest.rootsports.com/affiliate-resources/"
+                                          },
+                                          {
+                                          "key": "press",
+                                          "name": "Press",
+                                          "type": "url",
+                                          "url": "http://rootsports.itmwpb.com/press/"
+                                          },
+                                          {
+                                          "key": "faq",
+                                          "name": "FAQ",
+                                          "type": "html",
+                                          "data": "<h1>ROOT SPORTS App FAQ</h1>\r\n\r\n<h2>Sign-Up Section</h2>\r\n<h3>Can I stream ROOT SPORTS?</h3>"
+                                          },
+                                          {
+                                          "key": "userAgreement",
+                                          "name": "End User Acknowledgement",
+                                          "type": "html",
+                                          "data": "<div style=\"padding: 4px;\">\r\n<p>BY CLICKING “I AGREE”, OR BY DOWNLOADING, INSTALLING OR USING THE APP OR SERVICE, YOU AGREE:\r\n<ul>\r\n\t<li>YOU HAVE READ AND UNDERSTAND THIS AGREEMENT (<a href=\"https://northwest.rootsports.com/privacy-policy/\">https://northwest.rootsports.com/privacy-policy/</a>) AND AGREE TO ITS TERMS;</li>\r\n\t<li>YOU ARE 18 YEARS OF AGE OR OLDER;</li>\r\n\t<li>TO THE PRIVACY STATEMENT SET FORTH IN SECTION 10 OF THE AGREEMENT.</li>\r\n</ul>\r\n</p>\r\n</div>"
+                                          }
+                                          ]
+                       }
+                       ],
+    "htmlSportsnet": [
+                      {
+                      "region_code": "PTSB",
+                      "menu_resources": [
+                                         {
+                                         "key": "privacy",
+                                         "name": "Privacy Policy",
+                                         "type": "html",
+                                         "data": "<h1>AT&T Sports Networks Terms of Service, End User License Agreement, and Privacy Statement</h1> "
+                                         },
+                                         {
+                                         "key": "contact",
+                                         "name": "Contact Us",
+                                         "type": "url",
+                                         "url": "http://pittsburgh-attsn.att.com/contact-us/"
+                                         },
+                                         {
+                                         "key": "careers",
+                                         "name": "Careers",
+                                         "type": "url",
+                                         "url": "https://connect.att.jobs/"
+                                         },
+                                         {
+                                         "key": "about",
+                                         "name": "About Us",
+                                         "type": "html",
+                                         "data": "<h2>About Us</h2>\r\n<div class=\"entry-content\">\r\n  <p>AT&amp;T SportsNet is the television home of the Pittsburgh Penguins, Pittsburgh Pirates, Wild &amp; Wonderful Sports, WVU Football and Basketball"
+                                         },
+                                         {
+                                         "key": "certifications",
+                                         "name": "Certifications",
+                                         "type": "url",
+                                         "url": "http://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/843/2017/06/21125631/SW-Q2.pdf"
+                                         },
+                                         {
+                                         "key": "resources",
+                                         "name": "Affiliate Resources",
+                                         "type": "url",
+                                         "url": "https://pittsburgh-attsn.att.com/affiliate-resources/"
+                                         },
+                                         {
+                                         "key": "press",
+                                         "name": "Press",
+                                         "type": "url",
+                                         "url": "https://pittsburgh-attsn.att.com/category/press/"
+                                         },
+                                         {
+                                         "key": "faq",
+                                         "name": "FAQ",
+                                         "type": "html",
+                                         "data": "<h1>AT&T SportsNet App FAQ</h1>\r\n\r\n<h2>Sign-Up Section</h2>\r\n<h3>Can I stream AT&T SportsNet?</h3>"
+                                         },
+                                         {
+                                         "key": "userAgreement",
+                                         "name": "End User Acknowledgement",
+                                         "type": "html",
+                                         "data": "<div style=\"padding: 4px;\">\r\n<p>BY CLICKING “I AGREE”, OR BY DOWNLOADING, INSTALLING OR USING THE APP OR SERVICE, YOU AGREE:\r\n<ul>\r\n\t<li>YOU HAVE READ AND UNDERSTAND THIS AGREEMENT (<a href=\"http://www.attsportsnet.com/privacy-policy/\">http://www.attsportsnet.com/privacy-policy/</a>) AND AGREE TO ITS TERMS;</li>\r\n\t<li>YOU ARE 18 YEARS OF AGE OR OLDER;</li>\r\n\t<li>TO THE PRIVACY STATEMENT SET FORTH IN SECTION 10 OF THE AGREEMENT.</li>\r\n</ul>\r\n</p>\r\n</div>"
+                                         }
+                                         ]
+                      },
+                      {
+                      "region_code": "RMNT",
+                      "menu_resources": [
+                                         {
+                                         "key": "privacy",
+                                         "name": "Privacy Policy",
+                                         "type": "html",
+                                         "data": "<h1>AT&T Sports Networks Terms of Service, End User License Agreement, and Privacy Statement</h1>"
+                                         },
+                                         {
+                                         "key": "contact",
+                                         "name": "Contact Us",
+                                         "type": "url",
+                                         "url": "http://rockymountain-attsn.att.com/contact-us/"
+                                         },
+                                         {
+                                         "key": "careers",
+                                         "name": "Careers",
+                                         "type": "url",
+                                         "url": "https://connect.att.jobs/"
+                                         },
+                                         {
+                                         "key": "about",
+                                         "name": "About Us",
+                                         "type": "html",
+                                         "data": "<h2>About Us</h2>\r\n<div class=\"entry-content\">\r\n  <p>AT&amp;T SportsNet is the television home of the Colorado Rockies, Utah Jazz, Vegas Golden Knights, Mountain West, and the Big Sky Conference.</p>"
+                                         },
+                                         {
+                                         "key": "certifications",
+                                         "name": "Certifications",
+                                         "type": "url",
+                                         "url": "http://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/841/2017/06/21110706/Q3-RM.pdf"
+                                         },
+                                         {
+                                         "key": "resources",
+                                         "name": "Affiliate Resources",
+                                         "type": "url",
+                                         "url": "https://rockymountain-attsn.att.com/affiliate-resources/"
+                                         },
+                                         {
+                                         "key": "press",
+                                         "name": "Press",
+                                         "type": "url",
+                                         "url": "https://rockymountain-attsn.att.com/category/press/"
+                                         },
+                                         {
+                                         "key": "faq",
+                                         "name": "FAQ",
+                                         "type": "html",
+                                         "data": "<h1>AT&T SportsNet App FAQ</h1>\r\n\r\n<h2>Sign-Up Section</h2>\r\n<h3>Can I stream AT&T SportsNet?</h3>"
+                                         },
+                                         {
+                                         "key": "userAgreement",
+                                         "name": "End User Acknowledgement",
+                                         "type": "html",
+                                         "data": "<div style=\"padding: 4px;\">\r\n<p>BY CLICKING “I AGREE”, OR BY DOWNLOADING, INSTALLING OR USING THE APP OR SERVICE, YOU AGREE:\r\n<ul>\r\n\t<li>YOU HAVE READ AND UNDERSTAND THIS AGREEMENT (<a href=\"http://www.attsportsnet.com/privacy-policy/\">http://www.attsportsnet.com/privacy-policy/</a>) AND AGREE TO ITS TERMS;</li>\r\n\t<li>YOU ARE 18 YEARS OF AGE OR OLDER;</li>\r\n\t<li>TO THE PRIVACY STATEMENT SET FORTH IN SECTION 10 OF THE AGREEMENT.</li>\r\n</ul>\r\n</p>\r\n</div>"
+                                         }
+                                         ]
+                      },
+                      {
+                      "region_code": "SWST",
+                      "menu_resources": [
+                                         {
+                                         "key": "privacy",
+                                         "name": "Privacy Policy",
+                                         "type": "html",
+                                         "data": "<h1>AT&T Sports Networks Terms of Service, End User License Agreement, and Privacy Statement</h1>"
+                                         },
+                                         {
+                                         "key": "contact",
+                                         "name": "Contact Us",
+                                         "type": "url",
+                                         "url": "http://southwest-attsn.att.com/contact-us/"
+                                         },
+                                         {
+                                         "key": "careers",
+                                         "name": "Careers",
+                                         "type": "url",
+                                         "url": "https://connect.att.jobs/"
+                                         },
+                                         {
+                                         "key": "about",
+                                         "name": "About Us",
+                                         "type": "html",
+                                         "data": "<h2>About Us</h2>\r\n<div class=\"entry-content\">\r\n  <p>AT&amp;T SportsNet is the television home of the Houston Rockets and the Houston Astros,</p>\r\n  "
+                                         },
+                                         {
+                                         "key": "certifications",
+                                         "name": "Certifications",
+                                         "type": "url",
+                                         "url": "http://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/843/2017/06/21125631/SW-Q2.pdf"
+                                         },
+                                         {
+                                         "key": "resources",
+                                         "name": "Affiliate Resources",
+                                         "type": "url",
+                                         "url": "http://southwest-attsn.att.com/affiliate-resources/"
+                                         },
+                                         {
+                                         "key": "press",
+                                         "name": "Press",
+                                         "type": "url",
+                                         "url": "http://southwest-attsn.att.com/category/press/"
+                                         },
+                                         {
+                                         "key": "faq",
+                                         "name": "FAQ",
+                                         "type": "html",
+                                         "data": "<h1>AT&T SportsNet App FAQ</h1>\r\n\r\n<h2>Sign-Up Section</h2>\r\n<h3>Can I stream AT&T SportsNet?</h3>"
+                                         },
+                                         {
+                                         "key": "userAgreement",
+                                         "name": "End User Acknowledgement",
+                                         "type": "html",
+                                         "data": "<div style=\"padding: 4px;\">\r\n<p>BY CLICKING “I AGREE”, OR BY DOWNLOADING, INSTALLING OR USING THE APP OR SERVICE, YOU AGREE:\r\n<ul>\r\n\t<li>YOU HAVE READ AND UNDERSTAND THIS AGREEMENT (<a href=\"http://www.attsportsnet.com/privacy-policy/\">http://www.attsportsnet.com/privacy-policy/</a>) AND AGREE TO ITS TERMS;</li>\r\n\t<li>YOU ARE 18 YEARS OF AGE OR OLDER;</li>\r\n\t<li>TO THE PRIVACY STATEMENT SET FORTH IN SECTION 10 OF THE AGREEMENT.</li>\r\n</ul>\r\n</p>\r\n</div>"
+                                         }
+                                         ]
+                      }
+                      ],
+    "errors": [
+               {
+               "code": 0,
+               "header": "Unknown error.",
+               "icon_class": "error__icon-subscription",
+               "body": "Unknown error occurred. Please refresh page or contact support."
+               },
+               {
+               "code": 1,
+               "header": "Unsecure device.",
+               "icon_class": "error__icon-subscription",
+               "body": "The device is rooted. For security reasons the application cannot be run from a rooted device."
+               },
+               {
+               "code": 2,
+               "header": "The credentials is not valid.",
+               "icon_class": "error__icon-subscription",
+               "body": "Authentication failed with your provider. Please try again."
+               },
+               {
+               "code": 3,
+               "header": "This network is not included.",
+               "icon_class": "error__icon-subscription",
+               "body": "This channel is not included in your current {MVPD} service."
+               },
+               {
+               "code": 4,
+               "header": "This event is not available.",
+               "icon_class": "error__icon-subscription",
+               "body": "There was an issue authorizing the content/program."
+               },
+               {
+               "code": 5,
+               "header": "The maximum allowable streams.",
+               "icon_class": "error__icon-subscription",
+               "body": "You've reached the maximum allowed streams on your account. Please logout from one of your devices and try again."
+               },
+               {
+               "code": 6,
+               "header": "This event is not available on your current location.",
+               "icon_class": "error__icon-location",
+               "body": "Your device is currently not in region. Please try again when you're in region."
+               },
+               {
+               "code": 7,
+               "header": "The program is not authorized",
+               "icon_class": "error__icon-subscription",
+               "body": "Program not authorized by your service provider. Do you want to return to the schedule?",
+               "recovery": "or try playing an alternate program."
+               },
+               {
+               "code": 8,
+               "header": "This event is not available on your current location.",
+               "icon_class": "error__icon-location",
+               "body": "Program not authorized in your current location. Do you want to return to the schedule?",
+               "recovery": "or try playing an alternate program."
+               },
+               {
+               "code": 9,
+               "header": "Location services turned off",
+               "icon_class": "error__icon-location",
+               "body": "Location services are turned off. To get access, please enable location services."
+               },
+               {
+               "code": 10,
+               "header": "Mobile browsers are not allowed",
+               "icon_class": "error__icon-location",
+               "body": "Web application could not be launched in mobile browser. Install the native app please."
+               },
+               {
+               "code": 12,
+               "header": "Ooyala not authorized this media",
+               "icon_class": "error__icon-subscription",
+               "body": "This media is not authorized by Ooyala to watch on your computer."
+               },
+               {
+               "code": 13,
+               "header": "Programs list is empty",
+               "icon_class": "error__icon-subscription",
+               "body": "There are no programs in your region"
+               },
+               {
+               "code": 14,
+               "header": "DRM check error",
+               "icon_class": "error__icon-drm",
+               "body": "Program is DRM-restricted"
+               },
+               {
+               "code": 15,
+               "header": "Incorrect device zip",
+               "icon_class": "error__icon-incorrect-zip",
+               "body": "Location services detected your zip code as {device_zip}, which is incorrect"
+               },
+               {
+               "code": 16,
+               "header": "Location could not be determined",
+               "icon_class": "error__icon-location-detection",
+               "body": "Could not retrieve your location. Please try again"
+               },
+               {
+               "code": 81,
+               "header": "This event is not available on your current location.",
+               "icon_class": "error__icon-location",
+               "body": "Program not in your billing zip market territory. Do you want to return to the schedule?",
+               "recovery": "or try playing an alternate program."
+               },
+               {
+               "code": 404,
+               "header": "No programs on channel",
+               "icon_class": "error__icon-no-programs",
+               "body": "Currently no programs available",
+               "recovery": "Would you like to watch a different program?"
+               },
+               {
+               "code": 424,
+               "header": "Service communication error",
+               "icon_class": "error__icon-service-communication",
+               "body": "Stream unavailable due to technical issue",
+               "recovery": "Would you like to play different stream?"
+               }
+               ],
+    "hotAndroidDevices": [
+                          "samsung_GT-I9505",
+                          "samsung_GT-I9500",
+                          "samsung_GT-I9505G",
+                          "Verizon_SCH-I545"
+                          ],
+    "blacklistedMvpdIds": []
+}

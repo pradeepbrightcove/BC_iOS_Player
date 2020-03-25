@@ -1,0 +1,7 @@
+#define UNIT_TEST_MODE
+#define CLI_UNIT_TEST_MODE
+#define OFF 0
+#define ON 1
+#define FACEBOOK_API OFF
+#define CUSTOM_DEVICE_ID OFF
+#define KIF_AUTOMATION OFF

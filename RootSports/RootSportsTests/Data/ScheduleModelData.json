@@ -1,0 +1,43 @@
+{
+    "region": "Northwest",
+    "programs": [
+                 {
+                 "start": 1518606000,
+                 "end": 1518616800,
+                 "duration_seconds": 10800,
+                 "channel_code": "RTNW",
+                 "priority": "Primary",
+                 "program_code": "UFCR16012N",
+                 "program_title": "UFC 202: Diaz vs McGregor II - 12",
+                 "program_title_brief": "UFC Reloaded - UFC 202: Diaz vs McGregor II",
+                 "live": false,
+                 "mvpd_resource_id": "ROOTSportsNW"
+                 },
+                 {
+                 "start": 1518606000,
+                 "end": 1518616800,
+                 "duration_seconds": 10800,
+                 "channel_code": "ATUT",
+                 "priority": "Alternate",
+                 "program_code": "JAZZ17063Z",
+                 "program_title": "Suns at Jazz (2/14/18) - 63",
+                 "program_title_brief": "NBA: Suns at Jazz",
+                 "live": true,
+                 "mvpd_resource_id": "ROOTSportsNW"
+                 },
+                 {
+                 "start": 1518606000,
+                 "end": 1518616800,
+                 "duration_seconds": 10800,
+                 "channel_code": "ATLV",
+                 "priority": "Alternate (2nd)",
+                 "program_code": "VGKN17056C",
+                 "program_title": "Blackhawks at Golden Knights (2/13/18) - 56",
+                 "program_title_brief": "NHL: Blackhawks at Golden Knights",
+                 "live": false,
+                 "mvpd_resource_id": "ROOTSportsNW"
+                 }                 
+                 ],
+    "current_time": 1518614596,
+    "region_code": "NRTW"
+}

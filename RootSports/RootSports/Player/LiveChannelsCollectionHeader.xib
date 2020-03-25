@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LiveChannelsViewController" customModule="ATT" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LiveChannelsCollectionHeader" id="csC-aX-ocn" customClass="LiveChannelsCollectionHeader" customModule="ATT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="83" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6A-wW-dmt">
+                    <rect key="frame" x="0.0" y="0.0" width="83" height="72"/>
+                    <color key="backgroundColor" white="1" alpha="0.40009631849999999" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="83" id="cY3-wh-Afo"/>
+                        <constraint firstAttribute="height" constant="72" id="gYC-p4-exh"/>
+                    </constraints>
+                    <state key="normal" image="calendar-ic"/>
+                    <connections>
+                        <action selector="scheduleButtonAction:" destination="csC-aX-ocn" eventType="touchUpInside" id="CQI-1d-UoV"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="k6A-wW-dmt" firstAttribute="centerY" secondItem="csC-aX-ocn" secondAttribute="centerY" id="D4c-te-6Cl"/>
+                <constraint firstAttribute="trailing" secondItem="k6A-wW-dmt" secondAttribute="trailing" id="FJG-Zh-df8"/>
+            </constraints>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="calendar-ic" width="22" height="22"/>
+    </resources>
+</document>

@@ -1,0 +1,19 @@
+[
+  {
+    "backlot_api_key": "string",
+    "channel_code": "string",
+    "description": "string",
+    "embed_code": "string",
+    "error_code": 0,
+    "ip_check_url": "string",
+    "live": true,
+    "mvpd_resource_id": "string",
+    "ok": true,
+    "opt": "string",
+    "priority": "string",
+    "program_code": "string",
+    "program_title": "string",
+    "program_title_brief": "string",
+    "provider_code": "string"
+  }
+]

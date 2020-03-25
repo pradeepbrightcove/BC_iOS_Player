@@ -1,0 +1,8 @@
+{
+    "backlot_api_key": "apiKey",
+    "embed_code": "embedCode",
+    "provider_code": "providerCode",
+    "opt": "opt",
+    "ok": false,
+    "error_code": 13
+}

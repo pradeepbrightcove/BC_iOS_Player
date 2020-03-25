@@ -1,0 +1,12 @@
+{
+    "start": 1518523200,
+    "end": 1518522200,
+    "duration_seconds": -3600,
+    "channel_code": "RTNW",
+    "priority": "Primary",
+    "program_code": "weFSMA18007C",
+    "program_title": "qqqFight Sports: MMA '18",
+    "program_title_brief": "wwFight Sports: MMA - 7",
+    "live": false,
+    "mvpd_resource_id": "ROOTSportsNW"
+}

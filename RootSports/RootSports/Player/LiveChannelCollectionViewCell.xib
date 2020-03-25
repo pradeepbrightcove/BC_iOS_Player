@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="gTV-IL-0wX" customClass="LiveChannelCollectionViewCell" customModule="ATT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="72"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="240" height="72"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DkO-Rr-Zgg">
+                        <rect key="frame" x="198" y="24" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="9Pd-49-LHl"/>
+                            <constraint firstAttribute="width" constant="24" id="tY3-Zz-eW3"/>
+                        </constraints>
+                        <state key="normal" image="play-ic"/>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="48i-Eg-eYs">
+                        <rect key="frame" x="15" y="10.5" width="183" height="51"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LIVE NOW" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJn-eK-Q5A">
+                                <rect key="frame" x="0.0" y="0.0" width="40.5" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40.5" id="aYx-yX-1OA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="8"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE CURRENT SHOW ALTERNATE" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2z-rK-IuY">
+                                <rect key="frame" x="0.0" y="10" width="183" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="gP4-q5-6MC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="I2z-rK-IuY" firstAttribute="leading" secondItem="48i-Eg-eYs" secondAttribute="leading" id="N4z-dd-bEN"/>
+                            <constraint firstItem="I2z-rK-IuY" firstAttribute="top" secondItem="LJn-eK-Q5A" secondAttribute="bottom" id="O5w-pE-T22"/>
+                            <constraint firstAttribute="bottom" secondItem="I2z-rK-IuY" secondAttribute="bottom" id="d1d-u4-V3E"/>
+                            <constraint firstItem="LJn-eK-Q5A" firstAttribute="top" secondItem="48i-Eg-eYs" secondAttribute="top" id="dY6-yW-Now"/>
+                            <constraint firstAttribute="trailing" secondItem="I2z-rK-IuY" secondAttribute="trailing" id="ddu-ze-MoL"/>
+                            <constraint firstItem="LJn-eK-Q5A" firstAttribute="leading" secondItem="48i-Eg-eYs" secondAttribute="leading" id="huj-o6-kMI"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="0.40009631849999999" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="DkO-Rr-Zgg" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="66h-82-yDD"/>
+                <constraint firstItem="DkO-Rr-Zgg" firstAttribute="leading" secondItem="48i-Eg-eYs" secondAttribute="trailing" id="PA8-Dh-sT7"/>
+                <constraint firstAttribute="trailing" secondItem="DkO-Rr-Zgg" secondAttribute="trailing" constant="18" id="ZHB-Vk-Mkb"/>
+                <constraint firstItem="48i-Eg-eYs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="kwi-dE-ufw"/>
+                <constraint firstItem="48i-Eg-eYs" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="tol-Fp-0Ew"/>
+            </constraints>
+            <connections>
+                <outlet property="startButton" destination="DkO-Rr-Zgg" id="t1O-lf-9SA"/>
+                <outlet property="statusLabel" destination="LJn-eK-Q5A" id="WnG-UZ-oNQ"/>
+                <outlet property="titleLabel" destination="I2z-rK-IuY" id="JzT-7N-jZ9"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="play-ic" width="27" height="27"/>
+    </resources>
+</document>

@@ -1,0 +1,22 @@
+[
+  {
+  "channels": [
+               {
+               "priority": "Alternate",
+               "channel_code": "ATP2",
+               "channel_name": "AT&T SportsNet Pittsburgh Alt 2",
+               "mvpd_resource_id": "ATTSportsPTS"
+               },
+               {
+               "priority": "Primary",
+               "channel_code": "ATPT",
+               "channel_name": "AT&T SportsNet Pittsburgh",
+               "mvpd_resource_id": "ATTSportsPT"
+               }
+               ],
+  "region_code": "PTSB",
+  "region_name": "Pittsburgh",
+  "application_id": "sportsnet",
+  "web_domain": "pittsburgh-attsn.att.com"
+  }
+]
